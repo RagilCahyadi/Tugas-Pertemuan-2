@@ -42,7 +42,7 @@ button{
 .green2{
     background-color: green;
     color: white;
-    font-weight: strong;
+    font-weight: bold;
     border-radius: 5px;
     border-width: 1px; 
     padding: 10px;
@@ -51,7 +51,7 @@ button{
 .yellow2{
     background-color: yellow;
     color: black;
-    font-weight: strong;
+    font-weight: bold;
     border-radius: 5px;
     padding: 10px;
 }
@@ -59,7 +59,7 @@ button{
 .red2{
     background-color: red;
     color: white;
-    font-weight: strong;
+    font-weight: bold;
     border-radius: 5px;
     padding: 10px;
 }
