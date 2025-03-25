@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,10 +9,9 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
-    justify-content: center;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
     text-align: center;
-    height: 200px;
+    height: 300px;
     justify-content: center;
 }
 
@@ -25,7 +24,8 @@ body{
 .blue{
     background-color: #007BFF;
     color: white;
-    border: none;
+    align-content: center;
+    border: 1px solid #F5F5F5;
 }
 
 button{
@@ -34,9 +34,11 @@ button{
 
 .grey{
     border: 1px solid #F5F5F5;
+    align-content: center;
 }
 
 .red{
     background-color: red;
     color: white;
+    align-content: center;
 }
